@@ -1,0 +1,243 @@
+*{
+    
+    margin: 0px;
+   font-family: sans-serif;
+   
+}
+
+
+.page{
+    height: 100vh;
+    width: 100%;
+}
+.one{
+    
+    background: rgb(72,174,202);
+    background: linear-gradient(90deg, rgba(72,174,202,1) 0%, rgb(180, 150, 244) 100%); 
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.two{
+    background: rgb(255,33,156);
+    background: linear-gradient(327deg, rgba(255,33,156,1) 0%, rgba(35,83,243,1) 100%); 
+    
+}
+.three{
+    background-color: pink;
+}
+
+.left{
+    width: 60%;
+    height: 80%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.right{
+    width: 30%;
+    height: 50%;
+    z-index: 1;
+    
+}
+.rig:hover{
+    
+    border-radius: 82% 18% 11% 89% / 82% 25% 75% 18%   ;
+    
+}
+.rig{
+    border-radius: 29% 71% 56% 44% / 55% 25% 75% 45%  ;
+    background-image: url("imgdump/me.jpeg");
+    transition: border-radius 200ms ease-in-out;
+}
+.custom-shape-divider-bottom-1705321480 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1705321480 svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 314px;
+}
+
+.custom-shape-divider-bottom-1705321480 .shape-fill {
+    fill: #9013FE94;
+}
+
+.Hey{
+    font-family: 'Salsa', cursive;
+    font-size: 12rem;
+}
+.tex{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+.three{
+    background: rgb(255,120,120);
+    background: linear-gradient(203deg, rgba(255,120,120,1) 0%, rgba(146,171,255,1) 100%); 
+    position: relative;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    font-size: 8rem;
+}
+.head{
+
+    font-family: 'Salsa', cursive;
+}
+.gridd{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+.gridd>*{
+    flex-basis: 200px;
+    height: 200px;
+}
+
+.lin{
+    border-radius: 49% 51% 70% 30% / 30% 65% 35% 70% ;
+    /* background-color: #8A2BDD; */
+    transition: border-radius 200ms ease-in-out;
+    z-index: 1;
+}
+.lin:hover{
+    border-radius: 82% 18% 24% 76% / 30% 65% 35% 70% 
+}
+
+.git{
+    border-radius: 48% 52% 22% 78% / 77% 12% 88% 23% ;
+    /* background-color: red; */
+    transition: border-radius 200ms ease-in-out;
+    
+}
+.git:hover{
+    border-radius:  52% 74% 26% / 65% 12% 88% 35% ;
+}
+.ins{
+    border-radius: 87% 13% 84% 16% / 75% 65% 35% 25% ;
+    /* background-color: aqua; */
+    transition: border-radius 200ms ease-in-out;
+ 
+}
+.ins:hover{
+    border-radius:28% 72% 100% 0% / 75% 65% 35% 25% 
+}
+.dis{
+    border-radius: 28% 72% 13% 87% / 35% 13% 87% 65% ;
+    /* background-color: palegoldenrod; */
+    transition: border-radius 200ms ease-in-out;
+ 
+}
+.dis:hover{
+    border-radius: 28% 72% 68% 32% / 35% 80% 20% 65% ;
+}
+.mai{
+    border-radius:18% 82% 30% 70% / 26% 12% 88% 74%  ;
+    /* background-color: azure; */
+    transition: border-radius 200ms ease-in-out;
+   
+    
+ 
+}.mai:hover{
+    border-radius: 44% 56% 67% 33% / 26% 84% 16% 74% ;
+}
+
+.fun{
+    z-index: 1;
+}
+.custom-shape-divider-top-1705470797 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1705470797 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 385px;
+}
+
+.custom-shape-divider-top-1705470797 .shape-fill {
+    fill: #8A2BDD;
+}
+
+img{
+    width: 100%;
+}
+
+.two{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.containing{
+    
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+}
+.heading{
+    height:50%;
+    font-family: sans-serif;
+    font-size: 8rem;
+}
+.secondtext{
+    height:50%;
+    font-size: 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+
+}
+button{
+    height: 150%;
+    width: 100%;
+    font-size: 2rem;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 300ms ease-in-out;
+    background: rgb(58,78,175);
+    background: linear-gradient(90deg, rgba(58,78,175,1) 0%, rgba(53,185,180,1) 100%); 
+    
+}
+button:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
